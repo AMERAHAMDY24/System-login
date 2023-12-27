@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+
+    <div class="container my-5 text-center">
+        <div class="row">
+        </div>
+    <div class=" p-5 m-auto formShadow">
+        <h1>Smart Login System
+        </h1>
+        <input id="nameInput" type="text" class="form-control my-4" placeholder="Enter your name" >
+
+    <input id="emailInput" type="email" class="form-control my-4" placeholder="Enter your email" >
+    <input id="passInput" type="password" class="form-control my-4" placeholder="Enter your password">
+    <p id="requiredInputs" class="text-danger text-center d-none">All inputs is required</p>
+    <p id="invalid" class="text-danger text-center d-none"> invalid email or password</p>
+
+    <span id="firstRegestration" class="text-success text-center d-none fw-bold">success</span>
+    <span id="anotherRegestration" class="text-danger text-center d-none">email already exists</span>
+
+    <button onclick="checkInputs()" class="btn w-100 my-3 text-center text-primary  loginButton" > sign up</button>
+    
+    <p  class="text-white">You have an account? <a class="text-white" href="index.html">Sign in</a> </p>
+    
+    
+    </div>
+    
+    
+    
+    </div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/signup.js"></script> 
+
+</body>
+</html>

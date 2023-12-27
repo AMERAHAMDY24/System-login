@@ -1,0 +1,57 @@
+body{
+    background-color:#24353F !important;
+    /* height: 100vh; */
+}
+.bg-body-tertiary{
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.btn-outline-success{
+    --bs-btn-border-color:#ffc107 !important;
+    --bs-btn-color: gray !important;
+}
+.btn{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+.navbar-toggler
+{
+    border-color: rgba(255,255,255,.1) !important;
+
+}
+.navbar-toggler:focus{
+    color: rgba(255,255,255,.5) !important;
+    border: 0.1px solid transparent !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+#userName
+{
+    color:#17a2b8;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.A{
+    margin-top: 200px !important;
+}
+@media (max-width:700px){
+    .form{
+        width: 100% !important;
+}
+button{
+    width: 100% !important;
+}
+}
+
