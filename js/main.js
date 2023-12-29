@@ -26,7 +26,10 @@ console.log(signinArr)
         }
 }
 
-
+    document.getElementById("wrongEmail").classList.remove("d-none")
+    document.getElementById("wrongLogin").classList.add("d-none")
+    
 } 
+
 
 }}
